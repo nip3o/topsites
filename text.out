@@ -1,0 +1,10 @@
+    672 6.883553000    a996.dspmm1.akamai.net Loris.local           HTTP/1.1 200 OK  (PNG)                                          1284   HTTP     34753           364
+    693 6.885211000    a995.dspmm1.akamai.net Loris.local           HTTP/1.1 200 OK  (PNG)                                          625    HTTP     27428           365
+    701 6.885768000    a996.dspmm1.akamai.net Loris.local           HTTP/1.1 200 OK  (PNG)                                          598    HTTP     31857           364
+    709 7.175091000    Loris.local           secure-us.imrworldwide.com GET /cgi-bin/m?ci=ent156564&am=3&ep=1&at=view&rt=banner&st=image&ca=cmp7747&cr=crv72918&pc=plc220331&r=1348645184 HTTP/1.1  463    HTTP     1               1
+    711 7.310499000    secure-us.imrworldwide.com Loris.local           HTTP/1.1 302 Found  (text/html)                                 890    HTTP     1               398
+    716 7.319672000    Loris.local           www.facebook.com      GET /brandlift.php?campaign_id=JQwTBFUEBw__&creative_id=JRMVBFAJAVM_&placement_id=Ng0AAVAAA1h3&media_type=image&segment1=SE&segment2=000&h=6d831d2d4b&rnd=1348645185 HTTP/1.1  634    HTTP     305             13159
+    719 7.449678000    www.facebook.com      Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       477    HTTP     13159           873
+    724 7.472545000    Loris.local           niclasolofsson.se     GET /mupp HTTP/1.1                                              375    HTTP     1               1
+    726 7.474175000    niclasolofsson.se     Loris.local           HTTP/1.1 404 Not Found  (text/html)
+    719 7.449678000    www.mupp.com      Loris.local           HTTP/1.1 200 OK  (GIF89a)
