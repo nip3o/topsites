@@ -1,4 +1,35 @@
 <responses>
+    <response>
+        <query_status>
+            <query_status_code>OK</query_status_code>
+            <query_status_description>Query successfully performed.</query_status_description>
+        </query_status>
+        <host_name>exp.brand.sogou.com</host_name>
+        <resolved_ip_address>123.126.51.203</resolved_ip_address>
+        <geolocation_data>
+            <continent_code>AS</continent_code>
+            <continent_name>Asia</continent_name>
+            <country_code_iso3166alpha2>CN</country_code_iso3166alpha2>
+            <country_code_iso3166alpha3>CHN</country_code_iso3166alpha3>
+            <country_code_iso3166numeric>156</country_code_iso3166numeric>
+            <country_code_fips10-4>CH</country_code_fips10-4>
+            <country_name>China</country_name>
+            <region_code>CH22</region_code>
+            <region_name>Beijing</region_name>
+            <city>Beijing</city>
+            <postal_code>-</postal_code>
+            <metro_code>-</metro_code>
+            <area_code>-</area_code>
+            <latitude>39.9289</latitude>
+            <longitude>116.3883</longitude>
+            <isp>China Unicom Beijing province network</isp>
+            <organization>China Unicom Beijing province network</organization>
+        </geolocation_data>
+        <credit_balance>2176</credit_balance>
+        <time_to_restore_quota>In 29 days, 17 hours and  40 minutes your credit balance will be restored to the monthly quota of 3000 queries</time_to_restore_quota>
+        <get_unlimited_service>You are using a free license with a monthly quota. Paid licenses have no quotas!</get_unlimited_service>
+    </response>
+
 <response>
     <query_status>
         <query_status_code>OK</query_status_code>

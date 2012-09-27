@@ -4904,6 +4904,208 @@
   49078 206.448867000  windowslive.tt.omtrdc.net Loris.local           HTTP/1.1 500 Internal Server Error  (text/html)                 60     HTTP     631             1397
   49086 206.471591000  Loris.local           niclasolofsson.se     GET /mupp HTTP/1.1                                              375    HTTP     2473            3673
   49087 206.473166000  niclasolofsson.se     Loris.local           HTTP/1.1 404 Not Found  (text/html)                             525    HTTP     3673            2782
+    135 19.259060000   Loris.local           a1574.b.akamai.net    GET /eu-en/homepage HTTP/1.1                                    1161   HTTP     1               1
+    156 19.343369000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (text/html)                                    131    HTTP     15909           1096
+    160 19.347271000   Loris.local           a1574.b.akamai.net    GET /etc/clientlibs/foundation/librarymanager.js HTTP/1.1       1174   HTTP     1096            15974
+    161 19.347358000   Loris.local           a1574.b.akamai.net    GET /etc/designs/default.css HTTP/1.1                           1169   HTTP     1               1
+    162 19.347431000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/logo_head_avg-12.png/_jcr_content/renditions/cq5dam.thumbnail.140.100.png HTTP/1.1  1261   HTTP     1               1
+    167 19.359301000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/x-javascript)                     525    HTTP     17422           2204
+    169 19.359521000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (text/css)                                     417    HTTP     1               1104
+    175 19.359795000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (PNG)                                          1173   HTTP     2897            1196
+    177 19.383933000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/images/loader.gif HTTP/1.1           1200   HTTP     2204            17881
+    178 19.384234000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/products/avfree_banner_homepage-row.jpg HTTP/1.1  1220   HTTP     1104            352
+    179 19.384504000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/products/avfree_icon_90x90.png HTTP/1.1  1211   HTTP     1196            4004
+    180 19.384955000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/products/av_icon_90x90.png HTTP/1.1    1207   HTTP     1               1
+    181 19.385241000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/products/is_icon_v2_90x90.png HTTP/1.1  1210   HTTP     1               1
+    182 19.385548000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/products/pct_icon_90x90.png HTTP/1.1   1208   HTTP     1               1
+    186 19.390081000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       701    HTTP     20777           3338
+    188 19.390213000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/products/issmb_icon_90x90.png HTTP/1.1  1210   HTTP     3338            21412
+    232 19.395027000   Loris.local           gs1.wac.edgecastcdn.net GET /emb1foc.js HTTP/1.1                                        369    HTTP     1               1
+    294 19.400756000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (PNG)                                          444    HTTP     38119           4482
+    299 19.400893000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/products/avsmb_icon_90x90.png HTTP/1.1  1210   HTTP     4482            38497
+    305 19.402186000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (JPEG JFIF image)                              478    HTTP     28645           2258
+    307 19.402346000   Loris.local           a1574.b.akamai.net    GET /content/AVG2013/eu-en/homepage/_jcr_content/analytics.sitecatalyst.js HTTP/1.1  1200   HTTP     2258            29057
+    309 19.402862000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (PNG)                                          1297   HTTP     18484           2341
+    311 19.402950000   Loris.local           a1574.b.akamai.net    GET /etc/clientlibs/foundation/sitecatalyst/plugins.js HTTP/1.1  1180   HTTP     2341            19715
+    317 19.404788000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (PNG)                                          1052   HTTP     14481           1142
+    320 19.404919000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/clientlibs/genericlibs/jquery-cookie.js HTTP/1.1  1192   HTTP     1142            15467
+    323 19.405017000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (PNG)                                          547    HTTP     14481           1145
+    325 19.405110000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/clientlibs/genericlibs/cookiecuttr.css HTTP/1.1  1206   HTTP     1145            14962
+    327 19.405802000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (PNG)                                          1148   HTTP     14481           1143
+    329 19.405895000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/clientlibs/genericlibs/jquery.cookiecuttr.js HTTP/1.1  1197   HTTP     1143            15563
+    346 19.410223000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (PNG)                                          385    HTTP     52977           5626
+    348 19.410398000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/products/es_icon_90x90.png HTTP/1.1    1207   HTTP     5626            53296
+    358 19.411311000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (text/html)                                    239    HTTP     37745           3392
+    360 19.411401000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/social/facebook_icon.gif HTTP/1.1  1212   HTTP     3392            37918
+    361 19.411947000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/x-javascript)                     1011   HTTP     19715           3455
+    363 19.412115000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/social/twitter_icon.gif HTTP/1.1  1211   HTTP     3455            20660
+    364 19.413234000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/x-javascript)                     920    HTTP     15467           2268
+    366 19.413399000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/social/rss_icon.gif HTTP/1.1    1207   HTTP     2268            16321
+    367 19.413450000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (text/css)                                     1117   HTTP     14962           2285
+    369 19.413597000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/social/youtube_icon.gif HTTP/1.1  1211   HTTP     2285            16013
+    372 19.415002000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/x-javascript)                     534    HTTP     18459           2274
+    375 19.415133000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/social/affiliate_icon.gif HTTP/1.1  1213   HTTP     2274            18927
+    387 19.418541000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (PNG)                                          550    HTTP     67776           6767
+    389 19.418640000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/social/linkedin_icon.gif HTTP/1.1  1212   HTTP     6767            68260
+    390 19.419036000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1036   HTTP     37918           4538
+    392 19.419172000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/images/avg12-logo-head.png HTTP/1.1  1209   HTTP     4538            38888
+    394 19.422799000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1287   HTTP     22108           4600
+    396 19.422892000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/au.gif HTTP/1.1           1200   HTTP     4600            23329
+    397 19.423001000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1138   HTTP     16321           3409
+    400 19.423127000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       272    HTTP     17461           3430
+    401 19.423131000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/in.gif HTTP/1.1           1200   HTTP     3409            17393
+    403 19.423228000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1153   HTTP     18927           3421
+    405 19.423299000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/ru.gif HTTP/1.1           1200   HTTP     3430            17667
+    406 19.423385000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/br.gif HTTP/1.1           1200   HTTP     3421            20014
+    407 19.425538000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1075   HTTP     68260           7913
+    409 19.425711000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/ie.gif HTTP/1.1           1200   HTTP     7913            69269
+    413 19.426997000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (PNG)                                          564    HTTP     41784           5681
+    415 19.427101000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/sk.gif HTTP/1.1           1200   HTTP     5681            42282
+    417 19.430042000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       141    HTTP     24777           5734
+    419 19.430168000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/ca.gif HTTP/1.1           1200   HTTP     5734            24852
+    420 19.430306000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1038   HTTP     17393           4543
+    422 19.430459000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/it.gif HTTP/1.1           1200   HTTP     4543            18365
+    423 19.430791000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       790    HTTP     17667           4564
+    425 19.430916000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/za.gif HTTP/1.1           1200   HTTP     4564            18391
+    427 19.431622000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       155    HTTP     21462           4555
+    429 19.431718000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/cz.gif HTTP/1.1           1200   HTTP     4555            21551
+    430 19.431843000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1057   HTTP     69269           9047
+    432 19.431991000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/id.gif HTTP/1.1           1200   HTTP     9047            70260
+    433 19.433195000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1065   HTTP     42282           6815
+    435 19.433368000   Loris.local           a1574.b.akamai.net    GET /etc/clientlibs/foundation/jquery.js HTTP/1.1               1166   HTTP     6815            43281
+    437 19.436860000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       81     HTTP     26300           6868
+    439 19.436965000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/clientlibs/genericlibs.css HTTP/1.1  1194   HTTP     6868            26315
+    440 19.437416000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1057   HTTP     18365           5677
+    442 19.437548000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/clientlibs/genericlibs.js HTTP/1.1   1178   HTTP     5677            19356
+    444 19.438478000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       121    HTTP     19839           5698
+    446 19.438578000   Loris.local           a1574.b.akamai.net    GET /etc/clientlibs/foundation/shared.js HTTP/1.1               1166   HTTP     5698            19894
+    447 19.438777000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1465   HTTP     21551           5689
+    449 19.438902000   Loris.local           a1574.b.akamai.net    GET /libs/cq/ui/widgets.js HTTP/1.1                             1152   HTTP     5689            22950
+    450 19.439300000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       782    HTTP     70260           10181
+    452 19.439429000   Loris.local           a1574.b.akamai.net    GET /etc/clientlibs/foundation/jquery-ui.js HTTP/1.1            1169   HTTP     10181           70976
+    509 19.449401000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/x-javascript)                     1435   HTTP     25686           6798
+    513 19.449546000   Loris.local           a1574.b.akamai.net    GET /libs/cq/searchpromote/widgets.js HTTP/1.1                  1163   HTTP     6798            27055
+    534 19.451404000   gs1.wac.edgecastcdn.net Loris.local           HTTP/1.1 200 OK  (text/javascript)                              1146   HTTP     8761            316
+    618 19.459295000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/x-javascript)                     949    HTTP     83246           7915
+    621 19.459428000   Loris.local           a1574.b.akamai.net    GET /libs/cq/cloudserviceconfigs/widgets.css HTTP/1.1           1185   HTTP     7915            84129
+    629 19.459926000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (text/css)                                     1090   HTTP     50335           7996
+    631 19.460006000   Loris.local           a1574.b.akamai.net    GET /libs/cq/cloudserviceconfigs/widgets.js HTTP/1.1            1169   HTTP     7996            51359
+    644 19.462513000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/x-javascript)                     80     HTTP     28503           7895
+    646 19.462693000   Loris.local           a1574.b.akamai.net    GET /libs/cq/analytics/widgets.js HTTP/1.1                      1159   HTTP     7895            28517
+    647 19.463080000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/x-javascript)                     1386   HTTP     130235          11284
+    650 19.463205000   Loris.local           a1574.b.akamai.net    GET /apps/avg/dm/components/content/otherproductsblade/clientlibs.css HTTP/1.1  1210   HTTP     11284           131555
+    660 19.470671000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (text/css)                                     591    HTTP     84129           9034
+    662 19.470820000   Loris.local           a1574.b.akamai.net    GET /apps/avg/dm/components/content/otherproductsblade/clientlibs.js HTTP/1.1  1194   HTTP     9034            84654
+    669 19.471341000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/x-javascript)                     216    HTTP     57151           9099
+    672 19.471463000   Loris.local           a1574.b.akamai.net    GET /libs/cq/ui/widgets/themes/default.css HTTP/1.1             1183   HTTP     9099            57301
+    683 19.472045000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/x-javascript)                     513    HTTP     38653           8988
+    685 19.472160000   Loris.local           a1574.b.akamai.net    GET /libs/cq/ui/widgets/themes/default.js HTTP/1.1              1167   HTTP     8988            39100
+    729 19.481431000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/x-javascript)                     903    HTTP     40548           10089
+    731 19.481557000   Loris.local           a1574.b.akamai.net    GET /etc/clientlibs/foundation/jquery-ui/themes/default.css HTTP/1.1  1200   HTTP     10089           41385
+    782 19.486849000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (text/css)                                     427    HTTP     88562           10216
+    784 19.486950000   Loris.local           a1574.b.akamai.net    GET /libs/cq/searchpromote/widgets/themes/default.css HTTP/1.1  1194   HTTP     10216           88923
+    789 19.489094000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (text/css)                                     665    HTTP     45729           11223
+    792 19.489195000   Loris.local           a1574.b.akamai.net    GET /etc/clientlibs/foundation/searchpromote/themes/default.css HTTP/1.1  1204   HTTP     11223           46328
+    845 19.495454000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/x-javascript)                     1050   HTTP     130418          6789
+    846 19.495499000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (text/css)                                     538    HTTP     88923           11344
+    849 19.495550000   Loris.local           a1574.b.akamai.net    GET /libs/cq/analytics/widgets/themes/default.css HTTP/1.1      1190   HTTP     6789            131402
+    850 19.495693000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/kr.gif HTTP/1.1           1200   HTTP     11344           89395
+    851 19.497758000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (text/css)                                     614    HTTP     46328           12361
+    853 19.497964000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/cn.gif HTTP/1.1           1200   HTTP     12361           46876
+    854 19.501586000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (text/css)                                     793    HTTP     131402          7913
+    856 19.501806000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/jp.gif HTTP/1.1           1200   HTTP     7913            132129
+    858 19.502768000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       85     HTTP     90843           12478
+    860 19.502933000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/ch.gif HTTP/1.1           1200   HTTP     12478           90862
+    861 19.503387000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1489   HTTP     46876           13495
+    863 19.503528000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/de.gif HTTP/1.1           1200   HTTP     13495           48299
+    864 19.506429000   a1574.b.akamai.net    Loris.local           HTTP/1.1 404 Not Found  (text/html)                             425    HTTP     131555          12428
+    866 19.506629000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/my.gif HTTP/1.1           1200   HTTP     12428           131914
+    867 19.507707000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1022   HTTP     132129          9047
+    869 19.507847000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/tw.gif HTTP/1.1           1200   HTTP     9047            133085
+    870 19.508741000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1039   HTTP     90862           13612
+    872 19.508882000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/es.gif HTTP/1.1           1200   HTTP     13612           91835
+    873 19.509315000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1038   HTTP     48299           14629
+    875 19.509441000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/nl.gif HTTP/1.1           1200   HTTP     14629           49271
+    876 19.514382000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1491   HTTP     131914          13562
+    878 19.514513000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1077   HTTP     133085          10181
+    880 19.514603000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/tr.gif HTTP/1.1           1200   HTTP     13562           133339
+    881 19.514821000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/eu.gif HTTP/1.1           1200   HTTP     10181           134096
+    882 19.515029000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1086   HTTP     91835           14746
+    884 19.515157000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/pl.gif HTTP/1.1           1200   HTTP     14746           92855
+    885 19.515534000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       785    HTTP     49271           15763
+    887 19.515658000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/gb.gif HTTP/1.1           1200   HTTP     15763           49990
+    889 19.520138000   a1574.b.akamai.net    Loris.local           HTTP/1.1 404 Not Found  (text/html)                             425    HTTP     84654           10162
+    891 19.520346000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/fr.gif HTTP/1.1           1200   HTTP     10162           85013
+    893 19.521553000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       91     HTTP     134787          14696
+    895 19.521676000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/pt.gif HTTP/1.1           1200   HTTP     14696           134812
+    897 19.521802000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       72     HTTP     135544          11315
+    899 19.521975000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/flags/us.gif HTTP/1.1           1200   HTTP     11315           135550
+    900 19.522214000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       772    HTTP     92855           15880
+    902 19.522370000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/images/globalWebsite.gif HTTP/1.1          1201   HTTP     15880           93561
+    904 19.522482000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       155    HTTP     51438           16897
+    907 19.527632000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1057   HTTP     85013           11296
+    910 19.529767000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       119    HTTP     136260          15830
+    912 19.530339000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       1054   HTTP     135550          12449
+    915 19.531100000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       103    HTTP     95009           17015
+   1284 19.664750000   Loris.local           a1574.b.akamai.net    GET /libs/cq/security/userinfo.json?cq_ck=1348694935895 HTTP/1.1  1215   HTTP     15830           136313
+   1620 19.702581000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/x-javascript)                     1402   HTTP     643516          6775
+   1623 19.719119000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/json)                             479    HTTP     136313          16979
+   1634 20.019433000   Loris.local           a1574.b.akamai.net    GET /libs/cq/i18n/dict.en.json HTTP/1.1                         1190   HTTP     6775            644852
+   1636 20.049268000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/json)                             710    HTTP     644852          7899
+   1638 20.055237000   Loris.local           a1574.b.akamai.net    GET /libs/cq/security/userinfo.json?cq_ck=1348694936310 HTTP/1.1  1215   HTTP     16979           136726
+   1640 20.112622000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/json)                             479    HTTP     136726          18128
+   1642 20.181658000   Loris.local           a1574.b.akamai.net    GET /apps/avg/dm/components/content/otherproductsblade/clientlibs.js HTTP/1.1  1194   HTTP     7899            645496
+   1643 20.188165000   a1574.b.akamai.net    Loris.local           HTTP/1.1 404 Not Found  (text/html)                             425    HTTP     645496          9027
+   1645 20.223683000   Loris.local           a1574.b.akamai.net    GET /etc/clientlibs/foundation/personalization/jcarousel.css HTTP/1.1  1201   HTTP     18128           137139
+   1646 20.223918000   Loris.local           a1574.b.akamai.net    GET /etc/clientlibs/foundation/personalization/jcarousel.js HTTP/1.1  1185   HTTP     9027            645855
+   1647 20.224505000   Loris.local           a1574.b.akamai.net    GET /etc/clientlibs/foundation/personalization.js HTTP/1.1      1175   HTTP     11296           86004
+   1648 20.224727000   Loris.local           a1574.b.akamai.net    GET /etc/clientlibs/foundation/personalization/themes/default.css HTTP/1.1  1206   HTTP     12449           136538
+   1649 20.226008000   Loris.local           a1414.g2.akamai.net   GET /libs/wcm/stats/tracker.js?path=/content/AVG2013/eu-en/homepage&_=1348694936478 HTTP/1.1  684    HTTP     1               1
+   1651 20.231829000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (text/css)                                     951    HTTP     137139          19263
+   1658 20.233508000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/x-javascript)                     804    HTTP     650199          10146
+   1682 20.236333000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (text/css)                                     1087   HTTP     137986          13589
+   1690 20.236884000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/x-javascript)                     1415   HTTP     108593          12405
+   1692 20.338395000   a1414.g2.akamai.net   Loris.local           HTTP/1.1 200 OK  (text/javascript)                              526    HTTP     1               619
+   1694 20.388008000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/images/menu-magnifying-glass.png HTTP/1.1  1215   HTTP     19263           138024
+   1696 20.394335000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (PNG)                                          989    HTTP     139472          20412
+   1698 20.403532000   Loris.local           google.com            GET /ga.js HTTP/1.1                                             385    HTTP     1               1
+   1699 20.406816000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/images/avg12-background.gif HTTP/1.1  1244   HTTP     10146           650937
+   1700 20.407174000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/images/avg12-background-menu.gif HTTP/1.1  1249   HTTP     20412           140395
+   1701 20.407447000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/images/nav-button.png HTTP/1.1       1238   HTTP     13589           139007
+   1702 20.407952000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/images/avg12-background-search.png HTTP/1.1  1251   HTTP     12405           109942
+   1703 20.408152000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/images/avg12-list-01.png HTTP/1.1    1241   HTTP     17015           95046
+   1704 20.408496000   Loris.local           a1574.b.akamai.net    GET /content/dam/avg/img/design/button_shopbox_03.png HTTP/1.1  1209   HTTP     16897           51527
+   1705 20.412803000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       502    HTTP     650937          11324
+   1707 20.412993000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/images/multi-background-tabbed-content-off.gif HTTP/1.1  1263   HTTP     11324           651373
+   1709 20.415823000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       389    HTTP     141843          21595
+   1711 20.415940000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/images/multi-background-tabbed-content-bottom.gif HTTP/1.1  1266   HTTP     21595           142166
+   1713 20.416188000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (PNG)                                          1105   HTTP     140455          14761
+   1715 20.416267000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/images/avg12-background-quicklinks.gif HTTP/1.1  1255   HTTP     14761           141494
+   1717 20.416390000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (PNG)                                          1228   HTTP     111390          13590
+   1719 20.416493000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (PNG)                                          1369   HTTP     95046           18190
+   1720 20.416499000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/images/avg12-background-quicklinks-bottom.gif HTTP/1.1  1262   HTTP     13590           112552
+   1725 20.416801000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (PNG)                                          1256   HTTP     54423           18040
+   1728 20.419512000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       238    HTTP     652821          12521
+   1731 20.422949000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       358    HTTP     143614          22795
+   1737 20.426287000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       334    HTTP     145838          15950
+   1740 20.426386000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       220    HTTP     114000          14786
+   1759 20.462184000   google.com            Loris.local           HTTP/1.1 200 OK  (text/javascript)                              1006   HTTP     14241           320
+   1761 20.525085000   Loris.local           a1574.b.akamai.net    GET /etc/segmentation.segment.js HTTP/1.1                       1192   HTTP     12521           652993
+   1762 20.530616000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (application/x-javascript)                     386    HTTP     652993          13647
+   1764 20.563775000   Loris.local           google.com            GET /__utm.gif?utmwv=5.3.5&utms=2&utmn=1343595887&utmhn=www.avg.com&utmcs=UTF-8&utmsr=1440x900&utmvp=628x749&utmsc=24-bit&utmul=sv-se&utmje=1&utmfl=11.4%20r402&utmdt=AVG%20%7C%20Antivirus%20and%20Internet%20Security%20%7C%20Virus%20Protection&utmhid=117609403&utmr=-&utmp=%2Feu-en%2Fhomepage&utmac=UA-16796122-3&utmcc=__utma%3D22312676.1708016889.1348694866.1348694866.1348694866.1%3B%2B__utmz%3D22312676.1348694866.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qh~ HTTP/1.1  892    HTTP     320             15181
+   1765 20.580578000   Loris.local           a1574.b.akamai.net    GET /etc/clientcontext/default/content/jcr:content/stores.init.js?path=%2Fcontent%2FAVG2013%2Feu-en%2Fhomepage&cq_ck=1348694936828 HTTP/1.1  1290   HTTP     22795           143906
+   1766 20.594543000   google.com            Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       441    HTTP     15181           1146
+   1769 20.723806000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (text/javascript)                              1037   HTTP     143906          24019
+   1772 20.802604000   Loris.local           gs1.wac.edgecastcdn.net GET /c/1cf0ed/ff-din-web-pro-1:n6.Tlx:F:1/d?3bb2a6e53c9684ffdc9a98f31b5b2a62f234c83bca9ebb8991615aa11a84a6b81edd6c5f23e9c966e86de2999c573cfaa189ae1d0a982b45601f28b9baee491435c9b88c74ccd815f59f3a5b4a4fd74d3e74c34e17ef594ce5c0ddba9fab02e75957f839ffc91fb934772aa9db9d56bb2312537d122ddd47dfb8020cc004e0e9d70951be16ffb103a11a2654724b24f6fe66d46c1a38566b183237b133f24dff6e03dc18e7d9a3ae713f216255ee23d6048cf9cf1e6a759da0e1ca0343084135229d1133add888d0a3d5db29c254b1f18a4e2fd3b14235b7917fe1fa8af7dc701d6697b1fb989c66f6917d62c04366345ace78b827bf349ee91294 HTTP/1.1  915    HTTP     316             9853
+   1773 20.804150000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/images/multi-background-tabbed-content-on.gif HTTP/1.1  1262   HTTP     13647           653313
+   1775 20.810069000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       247    HTTP     654761          14843
+   1780 20.813157000   Loris.local           gs1.wac.edgecastcdn.net GET /p.gif?s=1&k=emb1foc&ht=tk&h=www.avg.com&f=4980&a=224441&_=1348694937023 HTTP/1.1  458    HTTP     1               1
+   1800 20.860911000   gs1.wac.edgecastcdn.net Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       367    HTTP     1               405
+   1834 20.954812000   gs1.wac.edgecastcdn.net Loris.local           HTTP/1.1 200 OK  (text/css)                                     570    HTTP     52193           1177
+   1836 21.011799000   Loris.local           a1574.b.akamai.net    GET /etc/designs/avg/us/en/favicon.ico HTTP/1.1                 1150   HTTP     24019           144877
+   1839 21.018527000   a1574.b.akamai.net    Loris.local           HTTP/1.1 200 OK  (image/x-icon)                                 92     HTTP     146325          25103
+   1847 21.984062000   Loris.local           appleglobal.112.2o7.net GET /b/ss/avgcorporatepublicww/1/H.24.2/s92392186024693?AQB=1&ndh=1&t=26%2F8%2F2012%2023%3A28%3A58%203%20-120&ce=UTF-8&ns=avgtechnologies&pageName=http%3A%2F%2Fwww.avg.com%2Feu-en%2Fhomepage&g=http%3A%2F%2Fwww.avg.com%2Feu-en%2Fhomepage&cc=USD&server=www.avg.com&events=event23&v1=ws_homepage_485371922&c6=eu&v6=eu&c8=eu-en&c14=en&c15=eu-en&c22=homepage&v22=http%3A%2F%2Fwww.avg.com%2Fcontent%2FAVG2013%2Feu-en%2Fhomepage.html&v23=en&v24=eu-en&c25=homepage-eu-en&v31=homepage&v33=10.28.44.81&c38=eu&c39=http%3A%2F%2Fwww.avg.com%2Fcontent%2FAVG2013%2Feu-en%2Fhomepage.html&v39=homepage-eu-en&s=1440x900&c=24&j=1.7&v=Y&k=Y&bw=643&bh=764&p=QuickTime%20Plug-in%207.7.1%3BJava-appletinsticksfil%3BShockwave%20Flash%3BAdobe%20Acrobat%20NPAPI%20Plug-in%2C%20Version%2010.1.4%3BSharePoint%20Browser%20Plug-in%3BNexus%20Personal%3B&AQE=1 HTTP/1.1  108    HTTP     1449            1
+   1849 22.164878000   appleglobal.112.2o7.net Loris.local           HTTP/1.1 200 OK  (GIF89a)                                       786    HTTP     1               1491
   49090 206.531467000  Loris.local           niclasolofsson.se     GET /mupp HTTP/1.1                                              418    HTTP     2782            4132
   49091 206.532910000  niclasolofsson.se     Loris.local           HTTP/1.1 404 Not Found  (text/html)                             525    HTTP     4132            3134
   54159 207.753028000  Loris.local           xvideos.com           GET / HTTP/1.1                                                  353    HTTP     1               1
@@ -11979,4 +12181,3 @@
  120931 458.377170000  Loris.local           s1.gs1.wac.edgecastcdn.net GET /beacon.gif?onready=652&frontend=1573&onload=1573&total_load_time=1573&src=inline&tbtim=&conversion=&tags=&v=0.2 HTTP/1.1  447    HTTP     300             2495
  120932 458.379020000  Loris.local           niclasolofsson.se     GET /mupp HTTP/1.1                                              375    HTTP     5872            8722
  120933 458.380759000  niclasolofsson.se     Loris.local           HTTP/1.1 404 Not Found  (text/html)                             525    HTTP     8722            6181
- 121796 458.545244000  s1.gs1.wac.edgecastcdn.net Loris.local           HTTP/1.1 204 No Content                                         60     HTTP     2863            694
