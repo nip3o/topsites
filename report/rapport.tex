@@ -37,9 +37,11 @@ Vår definition här var att om en viss sida (t.ex. facebook.com) gör en reques
 \subsubsection{Hur många sidor kontaktar minst en server som ägs av Google?}
 Som frågan anger räknade vi här vilka sidor som medför minst en request till en Google-ägd server. Ägarskapet till en server definierades som i föregående fråga.\\
 
-\subsubsection{Hur många servrar angände gzip-kompression?}
+\subsubsection{Hur många servrar använde gzip-kompression?}
+Vi definierade detta som antalet servrar som någon gång skickade ett svar med gzip-encoding.
 
 \subsubsection{Hur mycket utrymme sparade gzip i dessa fall?}
+Vi har här räknat den datamängd (bytes) som sparades genom gzip-encoding jämfört med om dessa responses inte använt gzip.
 
 \subsubsection{Vart och hur långt bort i världen finns servrarna?}
 Med tanke på titeln på uppgiften vore det orimligt att tro något annat än att den geografiska positionen aves. Med "hur långt bort" valde vi att utgå från Linköping som referens.
@@ -63,7 +65,10 @@ För att kunna bestämma geografisk position använde vi oss av API:et ipaddress
 
 Sedan var det bara att traska igenom alla sidor och sammanställa svaren på frågorna, utifrån tolkningen av dessa ovan. För att kunna plotta resultatet på en karta användes verktyget www.darrinward.com/lat-long. Hittade senare ett bättre verktyg, www.batchgeo.com som användes för att generera en bättre karta.\\
 
-Avståndet till alla servrar beräknades med hjälp av en implementation av Haversine-formeln. Denna finns i scriptet i Appendix B.
+Avståndet till alla servrar beräknades med hjälp av en implementation av Haversine-formeln. Denna finns i med scriptet i Appendix B.
+
+
+\subsection{Lösning av gzip-uppgifterna}
 
 
 \section{Resultat}
@@ -72,6 +77,11 @@ Om man lägger ihop det totala antalet servrar som varje sida kontaktar blir ant
 
 \subsection{Tredjeparts-servrar}
 Totalt är 344 av 538 servrar sådana som ägs av ett annat företag än det företag som är ägare till sidan man besöker. Av de 100 sidorna anropar 65 st någon gång en server som ägs av Google.
+
+\subsection{Användande av gzip-komprimering}
+Av de 538 besökta servrarna så använde 242 av dessa gzip-komprimering minst en gång. Resultatet kan i mitt tycke verka ganska lågt. Gjorde en rimlighetsanalys genom att räkna antalet totala requests (cirka 5800 st) samt antalet responses med gzip-kompression (cirka 1300 st). Med andra ord verkar resultatet inte vara helt fel ute med tanke på den ringa mängden svar med gzip i förhållande till antalet requests.\\
+
+Utan gzip hade servrarna som nu använde gzip gjort av med 44 Mb data. Nu används istället 12 Mb, och alltså sparades 32 Mb (72 \%) data!
 
 \subsection{Servrarnas geografiska position}
 En plot av alla de servrar som kontaktades se i Figur \ref{fig:map}. Man kan dock misstänka att åtminstone någon av de koordinater som fåtts från Geo-API:et är felaktig, då till exempel annars skulle ha en server i vattnet utanför Maroccos kust.\\

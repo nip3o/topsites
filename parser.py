@@ -35,7 +35,7 @@ class ServerInfo():
 
     def distance_from(self, lat2, lon2):
         lat1, lon1 = self.lat, self.long
-        R = 6372.8
+        R = 6372.8  # km constant
         dLat = math.radians(lat2 - lat1)
         dLon = math.radians(lon2 - lon1)
         lat1 = math.radians(lat1)
@@ -79,7 +79,7 @@ site = sites[i]
 with open('wireshark.out', 'r') as f:
     for line in f:
         # get the data from the file and store into variables
-        _, _, source, dest, http, status = line.split()[:6]
+        frame, time, source, dest, http, status = line.split()[:6]
 
         # skip all niclasolofsson-requests and all responses to local host
         if not dest == N and not source == N and not dest == L:
@@ -138,6 +138,7 @@ for server in servers:
             lengths[r] += 1
             break
 
+######### Tables ###########
 #for l in sorted(lengths):
 #    # output in a LaTeX-friendly style
 #    print "$ < x < %s$ & %s \\\\ \hline" % (l, lengths[l])
