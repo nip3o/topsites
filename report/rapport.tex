@@ -51,7 +51,7 @@ Som uppgiften föreslog använde vi oss av topplistan över sidor på alexa.com.
 
 Valet av verktyg för insamlingen av requests föll på Wireshark. Ett problem var dock att vissa av frågorna kräver att det går att skilja på de olika webbsidorna, vilket kan bli svårt att ta reda på i efterhand. Särskilt i de fall där namnet på sidan inte stämmer överens med namnet på den första servern som kontaktas. Lösningen blev förvisso inte jättefin, men enkel. Mellan varje sida skickades en request till en viss förutbestämd sida som inte fanns med på listan och som svarade med ett väldigt okomplicerat svar. Valde en icke-existerande sida på min egen server, som skulle svara med ett 404-fel: niclasolofsson.se/mupp.\\
 
-Ett script (se Appendix A) användes för att besöka sidorna, under tiden som insamlingen skedde. En av sidorna (avg.com) gick av okänd anledning inte att besöka med hjälp av scriptet, denna besöktes istället manuellt i en webbläsare.\\
+Ett script (se Appendix A) användes för att besöka sidorna, under tiden som insamlingen skedde. En av sidorna (avg.com) gick av okänd anledning inte att besöka med hjälp av scriptet, denna besöktes istället manuellt i en webbläsare. En annan av de sidor som vid uppgiftens påbörjande fanns med på Alexa topp 100 (360.cnp) har inte varit tillgänglig över huvud taget, och vi har därför helt bortsett från denna.\\
 
 Såg till att inte ha några andra störande program igång samtidigt. Resultatet i Wireshark filtrerades på "http", vilket räckte för att bara få den trafik som vi önskade. Detta exporterades från Wireshark till en textfil med hjälp av Print... -> "selected packets", "packet summary line" vilket låg till grund för analysen till de frågor som inte var gzip-relaterade.
 
@@ -61,8 +61,9 @@ Vi valde att först fokusera på de frågor som kunde lösas med bara kännedom 
 
 För att kunna bestämma geografisk position använde vi oss av API:et ipaddresslabs.com, som tillhandahåller IP och hostname-lookups inklusive geografisk position (och framför allt går att använda med en begränsad gratislicens). Skrev ett tredje script som gjorde requests mot detta API för alla insamlade hostnames, och dumpade ut resultatet som XML i en fil. Utökade sedan analys-scriptet för att parsa denna data så att varje hostname hade geografisk information. Som en liten bonus fanns även information om vilket företag som ägde varje hostname, samt till vilken IP-adress som denna pekade.\\
 
-Sedan var det bara att traska igenom alla sidor och sammanställa svaren på frågorna, utifrån tolkningen av dessa ovan. För att kunna plotta resultatet på en karta användes verktyget\\
-http://www.darrinward.com/lat-long/.
+Sedan var det bara att traska igenom alla sidor och sammanställa svaren på frågorna, utifrån tolkningen av dessa ovan. För att kunna plotta resultatet på en karta användes verktyget www.darrinward.com/lat-long. Hittade senare ett bättre verktyg, www.batchgeo.com som användes för att generera en bättre karta.\\
+
+Avståndet till alla servrar beräknades med hjälp av en implementation av Haversine-formeln. Denna finns i scriptet i Appendix B.
 
 
 \section{Resultat}
@@ -75,41 +76,71 @@ Totalt är 344 av 538 servrar sådana som ägs av ett annat företag än det fö
 \subsection{Servrarnas geografiska position}
 En plot av alla de servrar som kontaktades se i Figur \ref{fig:map}. Man kan dock misstänka att åtminstone någon av de koordinater som fåtts från Geo-API:et är felaktig, då till exempel annars skulle ha en server i vattnet utanför Maroccos kust.\\
 
+En något tydligare översikt över de mest server-täta områdena på kartan finns i Figur \ref{fig:detailmap}. En onlineversion av denna karta över reultatet finns (oktober 2012) på http://bit.ly/SBejYE, där man dessutom t.ex. kan kika på hostnamnet för varje punkt om man så vill.\\
+
 Man kan även göra en tabell över hur många servrar i ett land som kontaktas för att få en bättre överblick av tätheten, vilken kan ses i Figur \ref{tab:countries}. Vi kan notera att för en server fanns ingen exakt information om landet, bara att den låg i Europa.
 
-\begin{figure}[h]
+\begin{figure}
     \centering
     \begin{tabular}{ | l | l | l | p{5cm} |}
     \hline
     \emph{Land} & \emph{Antal servrar} \\ \hline
-    Brazil  &   10 \\ \hline
-    Canada  &   4 \\ \hline
-    China   &   135 \\ \hline
-    Europe  &   1 \\ \hline
-    France  &   1 \\ \hline
-    Germany &   8 \\ \hline
-    Hong Kong   &   4 \\ \hline
-    Ireland &   4 \\ \hline
-    Japan   &   23 \\ \hline
-    Netherlands &   28 \\ \hline
-    Portugal    &   2 \\ \hline
-    Russian Federation  &   29 \\ \hline
-    Sweden  &   5 \\ \hline
-    Switzerland &   1 \\ \hline
-    United Kingdom  &   13 \\ \hline
-    United States   &   270 \\ \hline
-    \hline
-    \emph{Summa} & 538 \\ \hline
+        Brazil  &   10 \\ \hline
+        Canada  &   4 \\ \hline
+        China   &   135 \\ \hline
+        Europe  &   1 \\ \hline
+        France  &   1 \\ \hline
+        Germany &   8 \\ \hline
+        Hong Kong   &   4 \\ \hline
+        Ireland &   4 \\ \hline
+        Japan   &   23 \\ \hline
+        Netherlands &   28 \\ \hline
+        Portugal    &   2 \\ \hline
+        Russian Federation  &   29 \\ \hline
+        Sweden  &   5 \\ \hline
+        Switzerland &   1 \\ \hline
+        United Kingdom  &   13 \\ \hline
+        United States   &   270 \\ \hline
+        \hline
+        \emph{Summa} & 538 \\ \hline
     \end{tabular}
     \caption{Tabell över antal kontaktade servrar per land}
     \label{tab:countries}
 \end{figure}
 
-\begin{figure}[h]
+
+\begin{figure}
+    \centering
+    \begin{tabular}{ | l | l | l | p{5cm} |}
+    \hline
+    \emph{Avstånd x (km)} & \emph{Antal hosts} \\ \hline
+        $0 < x < 500$ & 5 \\ \hline
+        $500 < x < 1000$ & 36 \\ \hline
+        $1000 < x < 5000$ & 51 \\ \hline
+        $5000 < x < 6000$ & 41 \\ \hline
+        $6000 < x < 7000$ & 118 \\ \hline
+        $7000 < x < 8000$ & 120 \\ \hline
+        $8000 < x < 9000$ & 163 \\ \hline
+        $9000 < x < \infty$ & 10 \\ \hline
+        \hline
+        \emph{Summa} & 538 \\ \hline
+    \end{tabular}
+    \caption{Tabell över antal servrar i förhållande till avståndet från Campus Valla}
+    \label{tab:distances}
+\end{figure}
+
+\begin{figure}
     \centering
     \includegraphics[keepaspectratio,width=\textwidth]{map}
     \caption{Karta över positionen för de kontaktade servrarna}
     \label{fig:map}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[keepaspectratio,width=\textwidth]{detailmap}
+    \caption{Detaljbild över de geografiska områden som hade flest kontaktade servrar. En full version finns (oktober 2012) på http://bit.ly/SBejYE}
+    \label{fig:detailmap}
 \end{figure}
 
 \end{document}
